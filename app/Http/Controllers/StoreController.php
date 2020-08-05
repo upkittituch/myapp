@@ -4,7 +4,7 @@ namespace App\Http\Controllers;
 
 use App\Mybotmenu;
 use Illuminate\Http\Request;
-use db;
+
 
 
 
@@ -50,12 +50,9 @@ class StoreController extends Controller
             $replace_path = str_replace("public","storage",$path); //เปลี่ยน path
 
 
-                // return $path;
+            //   return $path;
             //   Mybotmenu::create($request->all());
-
-            // $mybotmenu = new Mybotmenu();
-            // $mybotmenu->name =$request->input('name');
-            // $mybotmenu->price =$request->input('price');
+            //   dd($request);
             $mybotmenu = new Mybotmenu();
             $mybotmenu->name=$request->input('name');
             $mybotmenu->price=$request->input('price');
@@ -67,7 +64,7 @@ class StoreController extends Controller
 
 
              return redirect('mybot');
-            //   dd($request);
+
 
     }
 
