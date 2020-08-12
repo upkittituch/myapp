@@ -18,8 +18,8 @@ class CreateMenuordersTable extends Migration
             $table->string('lid');
             $table->string('lname');
             $table->string('address');
-            $table->text('order');
-            $table->double('price');
+            $table->json('order');
+            $table->double('allprice');
             $table->timestamps();
         });
     }

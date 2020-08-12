@@ -20,7 +20,7 @@ $result_html = '';
 if($product_list_array) {
     foreach($product_list_array as $p){
         foreach($p as $key=>$value) {
-            //var_dump($key, $value);
+            // var_dump($key, $value);
             $result_html .= $key.": ".$value."<br />";
         }
         $result_html .= '------------------------------------------<br />';

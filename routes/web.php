@@ -22,5 +22,5 @@ Auth::routes();
 Route::get('/home', 'HomeController@index')->name('home');
 
 Route::resource('/mybot', 'StoreController')->middleware('auth');
-Route::resource('/menuview','MenuController');
+Route::resource('/menu','MenuController');
 

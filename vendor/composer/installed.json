@@ -102,115 +102,6 @@
         ]
     },
     {
-        "name": "components/bootstrap",
-        "version": "4.5.0",
-        "version_normalized": "4.5.0.0",
-        "source": {
-            "type": "git",
-            "url": "https://github.com/components/bootstrap.git",
-            "reference": "a64e49cf3e338e4b90d9fd1963104a1440232c21"
-        },
-        "dist": {
-            "type": "zip",
-            "url": "https://api.github.com/repos/components/bootstrap/zipball/a64e49cf3e338e4b90d9fd1963104a1440232c21",
-            "reference": "a64e49cf3e338e4b90d9fd1963104a1440232c21",
-            "shasum": ""
-        },
-        "require": {
-            "components/jquery": ">=2"
-        },
-        "time": "2020-05-12T18:49:58+00:00",
-        "type": "component",
-        "extra": {
-            "component": {
-                "scripts": [
-                    "js/bootstrap.js"
-                ],
-                "files": [
-                    "js/*.js",
-                    "js/*.map",
-                    "css/*.css",
-                    "css/*.map"
-                ],
-                "shim": {
-                    "deps": [
-                        "jquery"
-                    ]
-                }
-            }
-        },
-        "installation-source": "dist",
-        "notification-url": "https://packagist.org/downloads/",
-        "license": [
-            "MIT"
-        ],
-        "authors": [
-            {
-                "name": "Mark Otto",
-                "email": "markdotto@gmail.com"
-            },
-            {
-                "name": "Jacob Thornton",
-                "email": "jacobthornton@gmail.com"
-            }
-        ],
-        "description": "The most popular front-end framework for developing responsive, mobile first projects on the web.",
-        "homepage": "https://getbootstrap.com",
-        "keywords": [
-            "css",
-            "framework",
-            "front-end",
-            "mobile-first",
-            "responsive",
-            "sass",
-            "web"
-        ]
-    },
-    {
-        "name": "components/jquery",
-        "version": "3.5.1",
-        "version_normalized": "3.5.1.0",
-        "source": {
-            "type": "git",
-            "url": "https://github.com/components/jquery.git",
-            "reference": "b33e8f0f9a1cb2ae390cf05d766a900b53d2125b"
-        },
-        "dist": {
-            "type": "zip",
-            "url": "https://api.github.com/repos/components/jquery/zipball/b33e8f0f9a1cb2ae390cf05d766a900b53d2125b",
-            "reference": "b33e8f0f9a1cb2ae390cf05d766a900b53d2125b",
-            "shasum": ""
-        },
-        "time": "2020-05-05T13:21:02+00:00",
-        "type": "component",
-        "extra": {
-            "component": {
-                "scripts": [
-                    "jquery.js"
-                ],
-                "files": [
-                    "jquery.min.js",
-                    "jquery.min.map",
-                    "jquery.slim.js",
-                    "jquery.slim.min.js",
-                    "jquery.slim.min.map"
-                ]
-            }
-        },
-        "installation-source": "dist",
-        "notification-url": "https://packagist.org/downloads/",
-        "license": [
-            "MIT"
-        ],
-        "authors": [
-            {
-                "name": "JS Foundation and other contributors"
-            }
-        ],
-        "description": "jQuery JavaScript Library",
-        "homepage": "http://jquery.com"
-    },
-    {
         "name": "dnoegel/php-xdg-base-dir",
         "version": "v0.1.1",
         "version_normalized": "0.1.1.0",
@@ -504,17 +395,17 @@
     },
     {
         "name": "egulias/email-validator",
-        "version": "2.1.18",
-        "version_normalized": "2.1.18.0",
+        "version": "2.1.19",
+        "version_normalized": "2.1.19.0",
         "source": {
             "type": "git",
             "url": "https://github.com/egulias/EmailValidator.git",
-            "reference": "cfa3d44471c7f5bfb684ac2b0da7114283d78441"
+            "reference": "840d5603eb84cc81a6a0382adac3293e57c1c64c"
         },
         "dist": {
             "type": "zip",
-            "url": "https://api.github.com/repos/egulias/EmailValidator/zipball/cfa3d44471c7f5bfb684ac2b0da7114283d78441",
-            "reference": "cfa3d44471c7f5bfb684ac2b0da7114283d78441",
+            "url": "https://api.github.com/repos/egulias/EmailValidator/zipball/840d5603eb84cc81a6a0382adac3293e57c1c64c",
+            "reference": "840d5603eb84cc81a6a0382adac3293e57c1c64c",
             "shasum": ""
         },
         "require": {
@@ -530,7 +421,7 @@
         "suggest": {
             "ext-intl": "PHP Internationalization Libraries are required to use the SpoofChecking validation"
         },
-        "time": "2020-06-16T20:11:17+00:00",
+        "time": "2020-08-08T21:28:19+00:00",
         "type": "library",
         "extra": {
             "branch-alias": {
@@ -622,17 +513,17 @@
     },
     {
         "name": "facade/ignition",
-        "version": "2.3.4",
-        "version_normalized": "2.3.4.0",
+        "version": "2.3.6",
+        "version_normalized": "2.3.6.0",
         "source": {
             "type": "git",
             "url": "https://github.com/facade/ignition.git",
-            "reference": "87335b120bc9652e4ee2bf285b7322a785211476"
+            "reference": "d7d05dba5a0bdbf018a2cb7be268f22f5d73eb81"
         },
         "dist": {
             "type": "zip",
-            "url": "https://api.github.com/repos/facade/ignition/zipball/87335b120bc9652e4ee2bf285b7322a785211476",
-            "reference": "87335b120bc9652e4ee2bf285b7322a785211476",
+            "url": "https://api.github.com/repos/facade/ignition/zipball/d7d05dba5a0bdbf018a2cb7be268f22f5d73eb81",
+            "reference": "d7d05dba5a0bdbf018a2cb7be268f22f5d73eb81",
             "shasum": ""
         },
         "require": {
@@ -657,7 +548,7 @@
         "suggest": {
             "laravel/telescope": "^3.1"
         },
-        "time": "2020-07-27T15:17:39+00:00",
+        "time": "2020-08-10T13:50:38+00:00",
         "type": "library",
         "extra": {
             "branch-alias": {
@@ -1234,17 +1125,17 @@
     },
     {
         "name": "laravel/framework",
-        "version": "v7.22.4",
-        "version_normalized": "7.22.4.0",
+        "version": "v7.24.0",
+        "version_normalized": "7.24.0.0",
         "source": {
             "type": "git",
             "url": "https://github.com/laravel/framework.git",
-            "reference": "30e851a2b3a2af73fba0b7f4fa22b04260db98e7"
+            "reference": "71bfb1f2f89e4e31fba539d43fe287143e635e68"
         },
         "dist": {
             "type": "zip",
-            "url": "https://api.github.com/repos/laravel/framework/zipball/30e851a2b3a2af73fba0b7f4fa22b04260db98e7",
-            "reference": "30e851a2b3a2af73fba0b7f4fa22b04260db98e7",
+            "url": "https://api.github.com/repos/laravel/framework/zipball/71bfb1f2f89e4e31fba539d43fe287143e635e68",
+            "reference": "71bfb1f2f89e4e31fba539d43fe287143e635e68",
             "shasum": ""
         },
         "require": {
@@ -1357,7 +1248,7 @@
             "symfony/psr-http-message-bridge": "Required to use PSR-7 bridging features (^2.0).",
             "wildbit/swiftmailer-postmark": "Required to use Postmark mail driver (^3.0)."
         },
-        "time": "2020-07-27T18:25:06+00:00",
+        "time": "2020-08-07T15:13:57+00:00",
         "type": "library",
         "extra": {
             "branch-alias": {
@@ -1657,29 +1548,30 @@
     },
     {
         "name": "league/flysystem",
-        "version": "1.0.70",
-        "version_normalized": "1.0.70.0",
+        "version": "1.1.0",
+        "version_normalized": "1.1.0.0",
         "source": {
             "type": "git",
             "url": "https://github.com/thephpleague/flysystem.git",
-            "reference": "585824702f534f8d3cf7fab7225e8466cc4b7493"
+            "reference": "481c0174b9c99b189959e2bb9d6f52188ed1f692"
         },
         "dist": {
             "type": "zip",
-            "url": "https://api.github.com/repos/thephpleague/flysystem/zipball/585824702f534f8d3cf7fab7225e8466cc4b7493",
-            "reference": "585824702f534f8d3cf7fab7225e8466cc4b7493",
+            "url": "https://api.github.com/repos/thephpleague/flysystem/zipball/481c0174b9c99b189959e2bb9d6f52188ed1f692",
+            "reference": "481c0174b9c99b189959e2bb9d6f52188ed1f692",
             "shasum": ""
         },
         "require": {
             "ext-fileinfo": "*",
-            "php": ">=5.5.9"
+            "league/mime-type-detection": "^1.3",
+            "php": "^7.2.5 || ^8.0"
         },
         "conflict": {
             "league/flysystem-sftp": "<1.0.6"
         },
         "require-dev": {
-            "phpspec/phpspec": "^3.4 || ^4.0 || ^5.0 || ^6.0",
-            "phpunit/phpunit": "^5.7.26"
+            "phpspec/prophecy": "^1.11.1",
+            "phpunit/phpunit": "^8.5.8"
         },
         "suggest": {
             "ext-fileinfo": "Required for MimeType",
@@ -1697,7 +1589,7 @@
             "spatie/flysystem-dropbox": "Allows you to use Dropbox storage",
             "srmklive/flysystem-dropbox-v2": "Allows you to use Dropbox storage for PHP 5 applications"
         },
-        "time": "2020-07-26T07:20:36+00:00",
+        "time": "2020-08-09T15:57:10+00:00",
         "type": "library",
         "extra": {
             "branch-alias": {
@@ -1740,6 +1632,49 @@
             "sftp",
             "storage"
         ]
+    },
+    {
+        "name": "league/mime-type-detection",
+        "version": "1.4.0",
+        "version_normalized": "1.4.0.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/thephpleague/mime-type-detection.git",
+            "reference": "fda190b62b962d96a069fcc414d781db66d65b69"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/thephpleague/mime-type-detection/zipball/fda190b62b962d96a069fcc414d781db66d65b69",
+            "reference": "fda190b62b962d96a069fcc414d781db66d65b69",
+            "shasum": ""
+        },
+        "require": {
+            "ext-fileinfo": "*",
+            "php": "^7.2 || ^8.0"
+        },
+        "require-dev": {
+            "phpstan/phpstan": "^0.12.36",
+            "phpunit/phpunit": "^8.5.8"
+        },
+        "time": "2020-08-09T10:34:01+00:00",
+        "type": "library",
+        "installation-source": "dist",
+        "autoload": {
+            "psr-4": {
+                "League\\MimeTypeDetection\\": "src"
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT"
+        ],
+        "authors": [
+            {
+                "name": "Frank de Jonge",
+                "email": "info@frankdejonge.nl"
+            }
+        ],
+        "description": "Mime-type detection for Flysystem"
     },
     {
         "name": "mockery/mockery",
@@ -1946,17 +1881,17 @@
     },
     {
         "name": "nesbot/carbon",
-        "version": "2.37.0",
-        "version_normalized": "2.37.0.0",
+        "version": "2.38.0",
+        "version_normalized": "2.38.0.0",
         "source": {
             "type": "git",
             "url": "https://github.com/briannesbitt/Carbon.git",
-            "reference": "1f61206de973d67f36ce50f041c792ddac663c3e"
+            "reference": "d8f6a6a91d1eb9304527b040500f61923e97674b"
         },
         "dist": {
             "type": "zip",
-            "url": "https://api.github.com/repos/briannesbitt/Carbon/zipball/1f61206de973d67f36ce50f041c792ddac663c3e",
-            "reference": "1f61206de973d67f36ce50f041c792ddac663c3e",
+            "url": "https://api.github.com/repos/briannesbitt/Carbon/zipball/d8f6a6a91d1eb9304527b040500f61923e97674b",
+            "reference": "d8f6a6a91d1eb9304527b040500f61923e97674b",
             "shasum": ""
         },
         "require": {
@@ -1971,11 +1906,11 @@
             "kylekatarnls/multi-tester": "^2.0",
             "phpmd/phpmd": "^2.8",
             "phpstan/extension-installer": "^1.0",
-            "phpstan/phpstan": "^0.12.30",
+            "phpstan/phpstan": "^0.12.35",
             "phpunit/phpunit": "^7.5 || ^8.0",
             "squizlabs/php_codesniffer": "^3.4"
         },
-        "time": "2020-07-28T06:04:54+00:00",
+        "time": "2020-08-04T19:12:46+00:00",
         "bin": [
             "bin/carbon"
         ],
@@ -2027,17 +1962,17 @@
     },
     {
         "name": "nikic/php-parser",
-        "version": "v4.7.0",
-        "version_normalized": "4.7.0.0",
+        "version": "v4.8.0",
+        "version_normalized": "4.8.0.0",
         "source": {
             "type": "git",
             "url": "https://github.com/nikic/PHP-Parser.git",
-            "reference": "21dce06dfbf0365c6a7cc8fdbdc995926c6a9300"
+            "reference": "8c58eb4cd4f3883f82611abeac2efbc3dbed787e"
         },
         "dist": {
             "type": "zip",
-            "url": "https://api.github.com/repos/nikic/PHP-Parser/zipball/21dce06dfbf0365c6a7cc8fdbdc995926c6a9300",
-            "reference": "21dce06dfbf0365c6a7cc8fdbdc995926c6a9300",
+            "url": "https://api.github.com/repos/nikic/PHP-Parser/zipball/8c58eb4cd4f3883f82611abeac2efbc3dbed787e",
+            "reference": "8c58eb4cd4f3883f82611abeac2efbc3dbed787e",
             "shasum": ""
         },
         "require": {
@@ -2045,17 +1980,17 @@
             "php": ">=7.0"
         },
         "require-dev": {
-            "ircmaxell/php-yacc": "0.0.5",
-            "phpunit/phpunit": "^6.5 || ^7.0 || ^8.0"
+            "ircmaxell/php-yacc": "^0.0.6",
+            "phpunit/phpunit": "^6.5 || ^7.0 || ^8.0 || ^9.0"
         },
-        "time": "2020-07-25T13:18:53+00:00",
+        "time": "2020-08-09T10:23:20+00:00",
         "bin": [
             "bin/php-parse"
         ],
         "type": "library",
         "extra": {
             "branch-alias": {
-                "dev-master": "4.7-dev"
+                "dev-master": "4.8-dev"
             }
         },
         "installation-source": "dist",
@@ -2212,6 +2147,64 @@
             "serializable",
             "serialization",
             "serialize"
+        ]
+    },
+    {
+        "name": "overtrue/laravel-shopping-cart",
+        "version": "2.0.2",
+        "version_normalized": "2.0.2.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/overtrue/laravel-shopping-cart.git",
+            "reference": "57eb1d76e33675ba0fb69d8eff15dafa5d2718f1"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/overtrue/laravel-shopping-cart/zipball/57eb1d76e33675ba0fb69d8eff15dafa5d2718f1",
+            "reference": "57eb1d76e33675ba0fb69d8eff15dafa5d2718f1",
+            "shasum": ""
+        },
+        "require": {
+            "php": ">=5.5"
+        },
+        "require-dev": {
+            "illuminate/session": "5.8.* || ~6.0",
+            "mockery/mockery": "~1.2",
+            "phpunit/phpunit": "~7.5"
+        },
+        "time": "2019-10-12T03:35:18+00:00",
+        "type": "library",
+        "extra": {
+            "laravel": {
+                "providers": [
+                    "Overtrue\\LaravelShoppingCart\\ServiceProvider"
+                ],
+                "aliases": {
+                    "ShoppingCart": "Overtrue\\LaravelShoppingCart\\Facade"
+                }
+            }
+        },
+        "installation-source": "dist",
+        "autoload": {
+            "psr-4": {
+                "Overtrue\\LaravelShoppingCart\\": "src/LaravelShoppingCart/"
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT"
+        ],
+        "authors": [
+            {
+                "name": "overtrue",
+                "email": "anzhengchao@gmail.com"
+            }
+        ],
+        "description": "Shopping cart for Laravel Application.",
+        "keywords": [
+            "laravel",
+            "shopping",
+            "shopping cart"
         ]
     },
     {
@@ -3356,38 +3349,41 @@
     },
     {
         "name": "ramsey/collection",
-        "version": "1.0.1",
-        "version_normalized": "1.0.1.0",
+        "version": "1.1.0",
+        "version_normalized": "1.1.0.0",
         "source": {
             "type": "git",
             "url": "https://github.com/ramsey/collection.git",
-            "reference": "925ad8cf55ba7a3fc92e332c58fd0478ace3e1ca"
+            "reference": "044184884e3c803e4cbb6451386cb71562939b18"
         },
         "dist": {
             "type": "zip",
-            "url": "https://api.github.com/repos/ramsey/collection/zipball/925ad8cf55ba7a3fc92e332c58fd0478ace3e1ca",
-            "reference": "925ad8cf55ba7a3fc92e332c58fd0478ace3e1ca",
+            "url": "https://api.github.com/repos/ramsey/collection/zipball/044184884e3c803e4cbb6451386cb71562939b18",
+            "reference": "044184884e3c803e4cbb6451386cb71562939b18",
             "shasum": ""
         },
         "require": {
-            "php": "^7.2"
+            "php": "^7.2 || ^8"
         },
         "require-dev": {
-            "dealerdirect/phpcodesniffer-composer-installer": "^0.5.0",
+            "captainhook/captainhook": "^5.3",
+            "dealerdirect/phpcodesniffer-composer-installer": "^0.7.0",
+            "ergebnis/composer-normalize": "^2.6",
             "fzaninotto/faker": "^1.5",
-            "jakub-onderka/php-parallel-lint": "^1",
+            "hamcrest/hamcrest-php": "^2",
             "jangregor/phpstan-prophecy": "^0.6",
             "mockery/mockery": "^1.3",
             "phpstan/extension-installer": "^1",
-            "phpstan/phpdoc-parser": "0.4.1",
-            "phpstan/phpstan": "^0.12",
-            "phpstan/phpstan-mockery": "^0.12",
-            "phpstan/phpstan-phpunit": "^0.12",
+            "phpstan/phpstan": "^0.12.32",
+            "phpstan/phpstan-mockery": "^0.12.5",
+            "phpstan/phpstan-phpunit": "^0.12.11",
             "phpunit/phpunit": "^8.5",
-            "slevomat/coding-standard": "^6.0",
-            "squizlabs/php_codesniffer": "^3.5"
+            "psy/psysh": "^0.10.4",
+            "slevomat/coding-standard": "^6.3",
+            "squizlabs/php_codesniffer": "^3.5",
+            "vimeo/psalm": "^3.12.2"
         },
-        "time": "2020-01-05T00:22:59+00:00",
+        "time": "2020-08-11T00:57:21+00:00",
         "type": "library",
         "installation-source": "dist",
         "autoload": {
@@ -3407,7 +3403,6 @@
             }
         ],
         "description": "A PHP 7.2+ library for representing and manipulating collections.",
-        "homepage": "https://github.com/ramsey/collection",
         "keywords": [
             "array",
             "collection",
@@ -4941,8 +4936,8 @@
     },
     {
         "name": "symfony/polyfill-ctype",
-        "version": "v1.18.0",
-        "version_normalized": "1.18.0.0",
+        "version": "v1.18.1",
+        "version_normalized": "1.18.1.0",
         "source": {
             "type": "git",
             "url": "https://github.com/symfony/polyfill-ctype.git",
@@ -5005,8 +5000,8 @@
     },
     {
         "name": "symfony/polyfill-iconv",
-        "version": "v1.18.0",
-        "version_normalized": "1.18.0.0",
+        "version": "v1.18.1",
+        "version_normalized": "1.18.1.0",
         "source": {
             "type": "git",
             "url": "https://github.com/symfony/polyfill-iconv.git",
@@ -5070,8 +5065,8 @@
     },
     {
         "name": "symfony/polyfill-intl-grapheme",
-        "version": "v1.18.0",
-        "version_normalized": "1.18.0.0",
+        "version": "v1.18.1",
+        "version_normalized": "1.18.1.0",
         "source": {
             "type": "git",
             "url": "https://github.com/symfony/polyfill-intl-grapheme.git",
@@ -5136,17 +5131,17 @@
     },
     {
         "name": "symfony/polyfill-intl-idn",
-        "version": "v1.18.0",
-        "version_normalized": "1.18.0.0",
+        "version": "v1.18.1",
+        "version_normalized": "1.18.1.0",
         "source": {
             "type": "git",
             "url": "https://github.com/symfony/polyfill-intl-idn.git",
-            "reference": "bc6549d068d0160e0f10f7a5a23c7d1406b95ebe"
+            "reference": "5dcab1bc7146cf8c1beaa4502a3d9be344334251"
         },
         "dist": {
             "type": "zip",
-            "url": "https://api.github.com/repos/symfony/polyfill-intl-idn/zipball/bc6549d068d0160e0f10f7a5a23c7d1406b95ebe",
-            "reference": "bc6549d068d0160e0f10f7a5a23c7d1406b95ebe",
+            "url": "https://api.github.com/repos/symfony/polyfill-intl-idn/zipball/5dcab1bc7146cf8c1beaa4502a3d9be344334251",
+            "reference": "5dcab1bc7146cf8c1beaa4502a3d9be344334251",
             "shasum": ""
         },
         "require": {
@@ -5158,7 +5153,7 @@
         "suggest": {
             "ext-intl": "For best performance"
         },
-        "time": "2020-07-14T12:35:20+00:00",
+        "time": "2020-08-04T06:02:08+00:00",
         "type": "library",
         "extra": {
             "branch-alias": {
@@ -5209,8 +5204,8 @@
     },
     {
         "name": "symfony/polyfill-intl-normalizer",
-        "version": "v1.18.0",
-        "version_normalized": "1.18.0.0",
+        "version": "v1.18.1",
+        "version_normalized": "1.18.1.0",
         "source": {
             "type": "git",
             "url": "https://github.com/symfony/polyfill-intl-normalizer.git",
@@ -5278,8 +5273,8 @@
     },
     {
         "name": "symfony/polyfill-mbstring",
-        "version": "v1.18.0",
-        "version_normalized": "1.18.0.0",
+        "version": "v1.18.1",
+        "version_normalized": "1.18.1.0",
         "source": {
             "type": "git",
             "url": "https://github.com/symfony/polyfill-mbstring.git",
@@ -5343,8 +5338,8 @@
     },
     {
         "name": "symfony/polyfill-php70",
-        "version": "v1.18.0",
-        "version_normalized": "1.18.0.0",
+        "version": "v1.18.1",
+        "version_normalized": "1.18.1.0",
         "source": {
             "type": "git",
             "url": "https://github.com/symfony/polyfill-php70.git",
@@ -5408,8 +5403,8 @@
     },
     {
         "name": "symfony/polyfill-php72",
-        "version": "v1.18.0",
-        "version_normalized": "1.18.0.0",
+        "version": "v1.18.1",
+        "version_normalized": "1.18.1.0",
         "source": {
             "type": "git",
             "url": "https://github.com/symfony/polyfill-php72.git",
@@ -5469,8 +5464,8 @@
     },
     {
         "name": "symfony/polyfill-php73",
-        "version": "v1.18.0",
-        "version_normalized": "1.18.0.0",
+        "version": "v1.18.1",
+        "version_normalized": "1.18.1.0",
         "source": {
             "type": "git",
             "url": "https://github.com/symfony/polyfill-php73.git",
@@ -5533,8 +5528,8 @@
     },
     {
         "name": "symfony/polyfill-php80",
-        "version": "v1.18.0",
-        "version_normalized": "1.18.0.0",
+        "version": "v1.18.1",
+        "version_normalized": "1.18.1.0",
         "source": {
             "type": "git",
             "url": "https://github.com/symfony/polyfill-php80.git",
@@ -6087,51 +6082,6 @@
         "keywords": [
             "debug",
             "dump"
-        ]
-    },
-    {
-        "name": "techlab/jquery-smartcart",
-        "version": "v3.0.1",
-        "version_normalized": "3.0.1.0",
-        "source": {
-            "type": "git",
-            "url": "https://github.com/techlab/SmartCart.git",
-            "reference": "c3b89d14bd09f14fdeb2ebb64f455e0ccb19cf54"
-        },
-        "dist": {
-            "type": "zip",
-            "url": "https://api.github.com/repos/techlab/SmartCart/zipball/c3b89d14bd09f14fdeb2ebb64f455e0ccb19cf54",
-            "reference": "c3b89d14bd09f14fdeb2ebb64f455e0ccb19cf54",
-            "shasum": ""
-        },
-        "require": {
-            "components/bootstrap": ">=3.0.0",
-            "components/jquery": ">=1.9"
-        },
-        "time": "2017-04-17T08:36:57+00:00",
-        "type": "library",
-        "installation-source": "dist",
-        "notification-url": "https://packagist.org/downloads/",
-        "license": [
-            "MIT"
-        ],
-        "authors": [
-            {
-                "name": "Dipu Raj",
-                "email": "hello@techlaboratory.net",
-                "homepage": "http://dipuraj.me"
-            }
-        ],
-        "description": "The smart interactive jQuery Shopping Cart plugin with PayPal payment support",
-        "homepage": "http://techlaboratory.net/smartcart",
-        "keywords": [
-            "bootstrap",
-            "cart",
-            "jquery",
-            "jquery-plugin",
-            "paypal",
-            "shopping",
-            "ui"
         ]
     },
     {
