@@ -19,7 +19,7 @@ class CreateMenuordersTable extends Migration
             $table->string('lname');
             $table->string('address');
             $table->json('order');
-            $table->double('allprice');
+            $table->double('total');
             $table->timestamps();
         });
     }
