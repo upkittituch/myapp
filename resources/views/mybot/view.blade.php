@@ -12,6 +12,7 @@
 
     <!-- Include SmartCart CSS -->
     <link href="{{asset('cart/css/smart_cart.min.css')}}" rel="stylesheet" type="text/css" />
+    <script charset="utf-8" src="https://static.line-scdn.net/liff/edge/2/sdk.js"></script>
 </head>
 <body>
     <br />
@@ -33,7 +34,7 @@
                                 <img data-name="product_image" src="{{$row->img}}" style="width:150px;height:150px;">
                                     <div class="caption">
                                         <h4 data-name="product_name">{{$row->name}}</h4>
-                                        <p data-name="product_desc">Product details</p> 
+                                        <p data-name="product_desc">Product details</p>
                                         <hr class="line">
                                         <div>
                                             <div class="form-group">
@@ -71,7 +72,8 @@
             <aside class="col-md-4">
 
                 <!-- Cart submit form -->
-                <form action="results.php" method="POST">
+                <form action="/menu" method="POST">
+                    @csrf
                     <!-- SmartCart element -->
                     <div id="smartcart"></div>
                 </form>
@@ -91,6 +93,26 @@
             $('#smartcart').smartCart();
 		});
     </script>
+    <script>
+        function runApp() {
+        liff.getProfile().then(profile => {
+        document.getElementById("pictureUrl").src = profile.pictureUrl;
+        document.getElementById("userId").innerHTML = '<b>UserId:</b> ' + profile.userId;
+        document.getElementById("displayName").innerHTML = '<b>DisplayName:</b> ' + profile.displayName;
+        document.getElementById("statusMessage").innerHTML = '<b>StatusMessage:</b> ' + profile.statusMessage;
+        document.getElementById("getDecodedIDToken").innerHTML = '<b>Email:</b> ' + liff.getDecodedIDToken().email;
+      }).catch(err => console.error(err));
+    }
+        liff.init({ liffId: "1601968022-ogJrPZlm" }, () => {
+          if (liff.isLoggedIn()) {
+
+          } else {
+            liff.login();
+          }
+        }, err => console.error(err.code, error.message));
+
+      </script>
+
 </body>
 </html>
 

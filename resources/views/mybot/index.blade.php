@@ -8,6 +8,7 @@
 
         <h1 align="center">แสดงรายการสินค้า</h1>
         <a href ="/mybot/create" class="btn btn-primary" >Create</a>
+        <a href ="/mybot/myorder" class="btn btn-primary" >Order</a>
         <br><table class="table"><br>
             <thead>
             <tr>

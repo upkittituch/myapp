@@ -2,11 +2,11 @@
 
 namespace App\Http\Controllers;
 
-use Illuminate\Http\Request;
-use App\Mybotmenu;
+use App\Http\Controllers\Controller;
 use App\Menuorder;
+use Illuminate\Http\Request;
 
-class MenuController extends Controller
+class VieworderController extends Controller
 {
     /**
      * Display a listing of the resource.
@@ -15,8 +15,8 @@ class MenuController extends Controller
      */
     public function index()
     {
-        $data=Mybotmenu::all();
-        return view('mybot.view',compact('data'));
+        $data=Menuorder::all();
+        return view('mybot.myorder',compact('data'));
     }
 
     /**
@@ -37,21 +37,7 @@ class MenuController extends Controller
      */
     public function store(Request $request)
     {
-             // Get the results as JSON string
-    $product_list = filter_input(INPUT_POST, 'cart_list');
-    // Convert JSON to array
-    $product_list_array = json_decode($product_list);
-        // $menuorder = new Menuorder;
-        // $menuorder=$product_list;
-        // $menuorder= Menuorder::create($request->all());
-
-        $menuorder = new Menuorder;
-        $menuorder= Menuorder::create($request->all());
-
-        // dd($menuorder);
-
-        return redirect('thankyou');
-
+        //
     }
 
     /**

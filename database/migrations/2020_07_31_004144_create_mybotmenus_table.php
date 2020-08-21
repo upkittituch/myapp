@@ -15,9 +15,9 @@ class CreateMybotmenusTable extends Migration
     {
         Schema::create('mybotmenus', function (Blueprint $table) {
             $table->id();
-            $table->string('produst_name');
-            $table->double('produst_price');
-            $table->text('product_desc');
+            $table->string('name');
+            $table->double('rice');
+            $table->text('desc');
             $table->string('img');
             $table->timestamps();
         });
