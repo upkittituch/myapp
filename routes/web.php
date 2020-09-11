@@ -24,7 +24,8 @@ Route::get('/home', 'HomeController@index')->name('home');
 Route::resource('/mybot', 'StoreController')->middleware('auth');
 Route::resource('/menu','MenuController');
 Route::post('/menu','MenuController@store');
-Route::get('/myorder', 'VieworderController@index');
+Route::get('/myorder','VieworderController@index');
+
 
 Route::get('/thankyou', function () {
     return view('thankyou');

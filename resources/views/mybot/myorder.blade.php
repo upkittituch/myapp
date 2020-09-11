@@ -29,8 +29,8 @@
 
 
             <td>
-                @csrf @method('UPDATE')
-                <a href="{{route('mybot.edit',$row->id)}}" class="btn btn-warning">view</a>
+                @csrf 
+                <a href="" class="btn btn-warning">view</a>
             </td>
 
 

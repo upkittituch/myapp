@@ -37,20 +37,21 @@ class MenuController extends Controller
      */
     public function store(Request $request)
     {
-             // Get the results as JSON string
-    $product_list = filter_input(INPUT_POST, 'cart_list');
-    // Convert JSON to array
-    $product_list_array = json_decode($product_list);
+        // Get the results as JSON string
+         $product_list = filter_input(INPUT_POST, 'cart_list');
+        // Convert JSON to array
+        $product_list_array = json_decode($product_list);
+        
+
         // $menuorder = new Menuorder;
         // $menuorder=$product_list;
         // $menuorder= Menuorder::create($request->all());
 
-        $menuorder = new Menuorder;
-        $menuorder= Menuorder::create($request->all());
+        // $menuorder = new Menuorder;
+        // $menuorder= Menuorder::create($request->all());
 
-        // dd($menuorder);
-
-        return redirect('thankyou');
+    
+        // return redirect('thankyou');
 
     }
 
